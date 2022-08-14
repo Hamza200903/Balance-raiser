@@ -1,0 +1,134 @@
+body{
+    font-family: 'Lobster', cursive;
+    background-image:url("https://media.istockphoto.com/photos/background-of-the-many-american-one-hundred-dollar-banknotes-picture-id1160534857?b=1&k=20&m=1160534857&s=170667a&w=0&h=idrD5dy9AwkuYuM-UbY0o4YpBPuTcjUzrQb-0TFEzp4=") ;
+}
+
+#title{
+
+    color:rgb(10, 7, 2);
+    font-family:montserrat-black;
+    position: relative;
+    z-index: 1;
+    background-image:url("https://media.istockphoto.com/photos/background-of-the-many-american-one-hundred-dollar-banknotes-picture-id1160534857?b=1&k=20&m=1160534857&s=170667a&w=0&h=idrD5dy9AwkuYuM-UbY0o4YpBPuTcjUzrQb-0TFEzp4=") ;
+    background-color: #ff4c68;
+}
+
+h1{
+    font-family:montserrat-black;
+    font-size: 4rem ;
+    
+}
+
+.container-fluid{
+    padding:3% 15%;
+}
+#end{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+    font-weight: 400;
+}
+
+.main-img{
+    padding-left:5.8rem;
+    transform: rotate(-25deg);
+    width:50rem;
+    
+}
+
+footer{
+    text-align: center;
+    padding: 100px;
+}
+
+#features{
+    padding:7% 15%;
+    text-align: center;
+    background-color: rgb(50, 201, 75);
+    position: relative;
+    z-index: 1;
+
+}
+
+i:hover{
+    color: rgb(190, 36, 9);
+}
+
+#quote{
+    text-align: center;
+    background-color: rgb(50, 201, 75);
+    padding:5% 1%;
+    font-size: 2.6rem;
+  
+}
+
+hr{
+     border-style: none;
+     border-top-style:groove;
+     border-width:2rem;
+    border-color: black;
+}
+
+.carousel-item{
+    padding:50px;
+    text-align: center;
+    font-size: 2.5em;
+}
+
+#cta{
+    padding:5rem;
+    background-color: rgba(0, 255, 21, 0.685);
+    text-align: center;
+    
+}
+
+@media (max-width:1028px){
+
+
+.main-img{
+    z-index: 1;
+    transform: rotate(0deg);
+    width:25rem;
+    padding:15px;
+    padding-left: 5px;
+}
+
+#title{
+    text-align:center;
+}
+
+#features{
+    font-size:2.5rem;
+}
+
+h3{
+    font-size:3.5rem;
+}
+}
+
+a{
+    font-size: 3.5rem;
+    font-weight: 200;
+}
+
+/* nav bar */
+
+.navbar{
+    padding-bottom: 5rem;
+    position: relative;
+    z-index: 1;
+    
+}
+
+.navbar-brand{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.8rem;
+    
+}
+
+.nav-item{
+    padding:0px 4.5rem;
+}
+
+.nav-link{
+    font-size: 1.3rem;
+}
